@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  color: #fff;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* Home Page */
+#home-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/travelMenu-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 16rem;
+}
+
+#home-page .toggle-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #000;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+#home-page .home-page-content {
+  text-align: center;
+}
+
+#home-page .home-page-content h1 {
+  font-size: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+#home-page .home-page-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#home-page .cta {
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  color: #fff;
+  background: transparent;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+#home-page .cta:hover {
+  /* border: 1px solid #fff; */
+  color: #000;
+  background: #fff;
+}
+
+#home-page .bottom-line {
+  position: absolute;
+  bottom: 3rem;
+  background: #fff;
+  opacity: 0.5;
+  height: 0.1rem;
+  width: 90%;
+}
